@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(uo.jpg);
+background-size: cover;
+background-blend-mode: lighten;
+font-family: monospace;
+}
+.loginbox{
+    width: 450px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0.3, 0.2, 0.6, 0.7);
+    font-size: 20px;
+    color:plum;
+}
+.pict{
+    border-radius: 50%;
+    top: -50%;
+    width: 500px;
+}
+h1{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom:1px solid;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color:plum;
+
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 29px;
+    width: 180px;
+    background:#D9BCEF ;
+    color: black;
+    border-radius: 20px;
+}
+.loginbox a{
+    color: rgb(255, 190, 255);
+    font-size: 15px;
+}
+.loginbox input[type="submit"]:hover{
+    color:white;
+    cursor: pointer;
+    background: purple;
+}
+.loginbox a:hover{
+    color: purple;
+}
